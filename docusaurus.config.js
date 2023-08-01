@@ -78,11 +78,6 @@ const config = {
             position: 'left',
           },
           {
-            to: '/about/intro', 
-            label: 'About', 
-            position: 'left'
-          },
-          {
             href: 'https://substack.com',
             label: 'Blog', 
             position: 'left'
@@ -91,12 +86,6 @@ const config = {
             href: 'https://t.me/commondataio',
             label: 'Telegram',
             position: 'right',
-          },
-          {
-            to: '/about/donate', 
-            label: 'Support project', 
-            position: 'right',
-            className: 'navbar-link-btn',
           },
           // {
           //   type: 'doc',
