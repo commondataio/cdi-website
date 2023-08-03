@@ -14,7 +14,6 @@ Following products created:
 * unified dataset search index and search engine
 * datasets backup and file cache
 
-Please take a look at [project mindmap](/static/img/commondataindex.png) to see it's goals and structure.
 
 ## What kind of data catalogs collected?
 
