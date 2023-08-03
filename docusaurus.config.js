@@ -73,17 +73,23 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
-            label: 'Documentation',
+            docId: 'about',
+            label: 'About project',
             position: 'left',
           },
           {
-            href: 'https://substack.com',
+            type: 'doc',
+            docId: 'intro',
+            label: 'Introduction',
+            position: 'left',
+          },
+          {
+            href: 'https://commondata.substack.com',
             label: 'Blog', 
             position: 'left'
           },
           {
-            href: 'https://t.me/commondataio',
+            href: 'https://t.me/commondata',
             label: 'Telegram',
             position: 'right',
           },
@@ -121,7 +127,7 @@ const config = {
               },
               {
                 label: 'Telegram',
-                href: 'https://t.me/commondataio',
+                href: 'https://t.me/commondata',
               },
             ],
           },
@@ -130,7 +136,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                href: 'https://substack.com',
+                href: 'https://commondata.substack.com',
               },
               {
                 label: 'GitHub',

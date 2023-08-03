@@ -11,29 +11,38 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: <Translate>Comprehensive</Translate>,
+    title: <Translate>Data catalogs registry</Translate>,
     Svg: require('@site/static/img/data.svg').default,
     description: (
       <Translate>
-       Common Data Index is the largest source of data catalogs and datasets around the world.
+       Registry of all data catalogs around the world.
       </Translate>
     ),
   },
   {
-    title: <Translate>Documented</Translate>,
+    title: <Translate>Raw data index</Translate>,
     Svg: require('@site/static/img/preservation.svg').default,
     description: (
       <Translate>
-        Knowledge base with project provide detailed information about how to find datasets, how data catalogs work.
+        Database of metadata about every dataset from all data catalogs as it is. Available as datasets and APIs
       </Translate>
     ),
   },
   {
-    title: <Translate>Open source</Translate>,
+    title: <Translate>Search index</Translate>,
     Svg: require('@site/static/img/osi.svg').default,
     description: (
       <Translate>
-        Most of Common Data Index source code is open and 
+        Searchable database of all datasets metadata transformed intro unified search index. Available as API
+      </Translate>
+    ),
+  },
+  {
+    title: <Translate>Data search engine</Translate>,
+    Svg: require('@site/static/img/osi.svg').default,
+    description: (
+      <Translate>
+        Search engine using search index for fast dataset search.
       </Translate>
     ),
   },
